@@ -6,9 +6,9 @@ while True:
 
     if player1_input==player2_input:
         print("It is Tie")
-    elif (player1 == "rock" and player2 == "scissors") or \
-         (player1 == "scissors" and player2 == "paper") or \
-         (player1 == "paper" and player2 == "rock"):
+    elif (player1_input == "rock" and player2_input == "scissors") or \
+         (player1_input == "scissors" and player2_input == "paper") or \
+         (player1_input == "paper" and player2_input == "rock"):
         print("Player 1 wins!")
     else:
         print("player 2 wins")    
